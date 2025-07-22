@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Image Gallery with Lightbox
+  </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="gallery">
+    <img src="https://picsum.photos/id/1015/300" alt="This is a breathtaking scenery" data-caption="Breathtaking scenery"/>
+    <img src="https://picsum.photos/id/1016/300" alt="This is a majestic mountain" data-caption="Majestic mountains"/>
+    <img src="https://picsum.photos/id/1018/300" alt="This is a serene lake" data-caption="Serene lake"/>
+    <img src="https://picsum.photos/id/1019/300" alt="This is a vibrant city" data-caption="Vibrant city"/>
+    <img src="https://picsum.photos/id/1020/300" alt="This is a lush forest" data-caption="Lush forest"/>
+    <img src="https://picsum.photos/id/1021/300" alt="This is a stunning sunset" data-caption="Stunning sunset"/>
+    <img src="https://picsum.photos/id/1022/300" alt="This is a majestic mountain" data-caption="Majestic mountains"/>
+    <img src="https://picsum.photos/id/1023/300" alt="This is a serene lake" data-caption="Serene lake"/>
+  </div>
+
+  <div class="lightBox" id="lightbox">
+    <span id="prevBtn" class="prev">&#x276e;</span>
+    <div>
+      <img src="" alt="Full View" id="lightboxImage">
+      <p class="caption-dow"><span id="caption"></span> <a id="downloadLink" href="" download>Download</a></p>
+    </div>
+    <span id="nextBtn" class="next">&#x276f;</span>
+    <span class="close" id="closeBtn">&times;</span>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
